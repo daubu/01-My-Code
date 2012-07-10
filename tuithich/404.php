@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-        <section class="b_content clearfix" id="main">
+   fd      <section class="b_content clearfix" id="main">
             <div class="b_page">
 
                 <?php _core::method( 'layout' , 'archiveSidebar' , 'left' , 'l404' ); wp_reset_query(); ?>
