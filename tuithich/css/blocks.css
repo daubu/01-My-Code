@@ -1,0 +1,39 @@
+/* Fix width*/
+.b_page, .fix .b_page{ width: 930px; margin: 0 auto; position: relative; z-index: 9;}
+
+.w_990, .fix .w_990{ width: 990px;}
+.w_930, .fix .w_930{ width: 930px; float: left;}
+.w_850, .fix .w_850{ width: 850px; float: left;}
+.w_770, .fix .w_770{ width: 770px; float: left;}
+.w_690, .fix .w_690{ width: 690px; float: left;}
+.w_640, .fix .w_640{ width: 640px; float: left;}
+.w_610, .fix .w_610{ width: 610px; float: left;}
+.w_590, .fix .w_590{ width: 590px; float: left;}
+.w_530, .fix .w_530{ width: 530px; float: left;}
+.w_450, .fix .w_450{ width: 450px; float: left;}
+.w_370, .fix .w_370{ width: 370px; float: left;}
+.w_290, .fix .w_290{ width: 290px; float: left;}
+.w_260, .fix .w_260{ width: 260px; float: left;}
+.w_210, .fix .w_210{ width: 210px; float: left;}
+.w_130, .fix .w_130{ width: 130px; float: left;}
+.w_50, .fix .w_50{ width: 50px; float: left;}
+
+
+/* Full-width */
+.full-width .b_page  {width: 92%; margin-left: 4%; margin-right: 4%; max-width: 1250px; min-width: 930px;}
+.full-width .b_pages { width:100%; margin: 0 auto; position: relative; z-index: 9;}
+
+.full-width .w_210 { width: 21.771%; float: left;}
+.full-width .w_260 { width: 26%; float: left;}
+.full-width .w_290 { width: 29%; float: left;}
+.full-width .w_370 { width: 37%; float: left;}
+.full-width .w_450 { width: 45.0%; float: left;}
+.full-width .w_530 { width: 53%; float: left;}
+.full-width .w_590 { width: 59%; float: left;}
+.full-width .w_610 { width: 79%; float: left;}
+.full-width .w_640 { width: 64%; float: left;}
+.full-width .w_690 { width: 69%; float: left;}
+.full-width .w_720 { width: 72%; float: left;}
+.full-width .w_770 { width: 77%; float: left;}
+.full-width .w_850 { width: 85%; float: left;}
+.full-width .w_930 { width: 98.0%; float: left;}

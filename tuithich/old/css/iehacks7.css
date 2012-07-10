@@ -1,0 +1,42 @@
+.grid-view .entry-footer {margin-bottom: -20px;}
+div.entry-meta ul li.love a { background: url(../images/meta.sprite.png) no-repeat 0 -191px;}
+div.entry-meta ul li.love a:hover { background: url(../images/meta.sprite.png) no-repeat 0 -208px;}
+.featimg {width: 73%; }
+p.tags { white-space: nowrap;}
+#toTop { width: auto; height: auto;}
+#toTop .inner { width: 70px; height: 50px; padding-top: 15px;}
+.widget_tabber ul.widget_tabber li {float: left; background: url(../images/delimiter.bg.menu.png) no-repeat left center; padding: 0 5px; height: 22px; width: auto; margin: 0;}
+.widget_tabber ul.widget_tabber li:first-child { background: none; padding: 0 5px 0 0;}
+.widget_tabber ul.widget_tabber li.last {padding: 0 0 0 5px;}
+
+.full-width .w_210 { width: 23.6%;}
+.whitey { padding-top: 20px; padding-bottom: 20px;}
+.logo { float: left !important; display: block; vertical-align: none !important; }
+.logo h1 { line-height: 34px;}
+.text-menu { float: left !important; }
+#access-um .sf-menu li.sfHover ul { left: 0 !important;}
+.b_pages { margin-top: 20px !important;}
+.full-width .grid-view .hovermore img , .grid-view img {float: none; border: none; }
+
+.login-form .cosmo-icons ul li ul{ z-index: 99 !important;}
+.mosaic-overlay { position: absolute; top: 0px; left: 0px;}
+
+/*Slider*/
+
+.full-width .es-carousel-wrapper{ padding:0; position:relative; overflow: hidden; width: 90%; margin-left: 4%; margin-right: 4%;}
+.full-width .es-carousel{ margin: 0px !important; overflow: hidden !important;}
+.full-width .es-nav span{ left:0px;}
+.full-width .es-nav span.es-nav-next{ right:0px; }
+
+.es-carousel .entry-footer h2 { float: none;}
+
+.ad_info { width: 210px !important;}
+.breadcrumbs { margin-top: 50px; background: none !important;}
+.featimg  { float: left;}
+
+.um.cosmo-icons ul li:first-child {background: none; padding-left: 0; }
+
+.list-view footer.entry-footer { display: inline; }
+
+input[type='text'] {width: 66%;}
+.widget_search #searchform INPUT#searchsubmit { padding-top: 4px;}

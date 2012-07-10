@@ -1,0 +1,61 @@
+/*Header background and opacity*/
+.header-wrapper {   height: auto; z-index: 12; }
+.header-wrapper .b_page { background: transparent url(../images/delimiter.bg.x.png) repeat-x left bottom; }
+
+.night .header-wrapper .b_page { background: transparent url(../images/delimiter.x.header.night.png) repeat-x left bottom; }
+
+/* Colored header */
+.color .header-wrapper { background-color: #464F57;  height: auto; z-index: 12; margin-bottom: 0; }
+.color .header-wrapper .b_page { background: none; }
+
+.color .text-menu ul.sf-menu li.sfHover ul li { background: url(../images/delimiter.bg.x.night.png) repeat-x top left; background-color: #464f57; }
+.color .text-menu ul.sf-menu li.sfHover ul li:first-child { background: none; background-color: #464f57; }
+
+.day .text-menu ul.sf-menu li.sfHover ul li { background: url(../images/delimiter.bg.x.png) repeat-x top left; background-color: white; border-left: 1px solid #E0E6F1; border-right: 1px solid #E0E6F1; }
+.day .text-menu ul.sf-menu li.sfHover ul li:first-child { background: none; background-color: white; border-top: 1px solid #E0E6F1; }
+.day .text-menu ul.sf-menu li.sfHover ul li:last-child { background-color: white; border-bottom: 1px solid #E0E6F1; }
+
+.night .text-menu ul.sf-menu li.sfHover ul li { background: url(../images/delimiter.bg.x.night.png) repeat-x top left; background-color: black; background-color: rgba(0, 0, 0, 0.8); }
+.night .text-menu ul.sf-menu li.sfHover ul li:first-child { background: none; background-color: black; background-color: rgba(0, 0, 0, 0.8); }
+
+.color .login-form .cosmo-icons ul li li { background: url(../images/delimiter.bg.x.night.png) repeat-x top left; background-color: #464F57; }
+.color .login-form .cosmo-icons ul li li:first-child { background: none; background-color: #464F57;}
+
+.day .login-form .cosmo-icons ul li li { background: url(../images/delimiter.bg.x.png) repeat-x top left; background-color: white; border-left: 1px solid #E0E6F1; border-right: 1px solid #E0E6F1;  }
+.day .login-form .cosmo-icons ul li li:first-child { background: none; background-color: white; border-top: 1px solid #E0E6F1;}
+.day .login-form .cosmo-icons ul li li:last-child { background-color: white; border-bottom: 1px solid #E0E6F1;}
+
+.night .login-form .cosmo-icons ul li li { background: url(../images/delimiter.bg.x.night.png) repeat-x top left; background-color: black; }
+.night .login-form .cosmo-icons ul li li:first-child { background: none; background-color: black;}
+
+.fixed-width .header-wrapper {background-color: black; background-color: rgba(0, 0, 0, 1); *filter: alpha(opacity = 100); box-shadow: none;}
+
+/*Menu background and opacity - must be identical to header background. Added values - border*/
+.sf-menu li li {background: white; border-top: none;}
+.cosmo-icons ul li a  {color: white;}
+.cosmo-icons ul li.active a { background: black; background: rgba(255, 255, 255, 0.20); }
+.sf-menu li.active li a {background: none; } /*Needed to override the above styles*/
+.sf-sub-indicator {background: url(../images/arrows-white.png) no-repeat -11px -104px; }
+.color .sf-sub-indicator {background: url(../images/arrows-dark.png) no-repeat -11px -100px; }
+
+/*Slider caption background - must be identical to header background**/
+.caption {background-color: white; background-color: rgba(0, 0, 0, 0.7); *filter: alpha(opacity = 70);}
+#headertxt #firstline { color: #3f4950; }
+#headertxt #secondline { color: #3f4950; }
+
+/*Different colors layout - white*/
+.custom-white .header-wrapper {background-color: white; background-color: rgba(255, 255, 255, 1); *filter: alpha(opacity = 100); box-shadow: none; }
+
+.custom-white .sf-menu li li {background-color: white; background-color: rgba(255, 255, 255, 0.7); }
+.custom-white .cosmo-icons ul li a { color: #3F4950; }
+.custom-white .cosmo-icons ul li.active a { background: black; background: rgba(0, 0, 0, 0.03); }
+.custom-white .sf-sub-indicator {background: url(../images/arrows-black.png) no-repeat -11px -104px; }
+
+.custom-white .caption {background-color: white; background-color: rgba(255, 255, 255, 0.7); }
+.custom-white #headertxt #firstline { color: #3F4950; }
+.custom-white #headertxt #secondline { color: #3F4950; }
+
+.custom-white .cosmo-qnews-label, .custom-white .cosmo-qnews-wrapper {background: white; background-color: rgba(255, 255, 255, 0.9);}
+.custom-white .cosmo-qnews-close { color: #CB3939;}
+.custom-white .cosmo-qnews-label a { color: #3F4950; }
+.custom-white .cosmo-qnews-content { color: #3F4950; }

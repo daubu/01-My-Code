@@ -1,0 +1,104 @@
+/* extra class forms style */
+.admin-content div.tooltips-container{
+	width:615px;
+	background:#ededed;
+	margin-bottom:1px;
+}
+
+.admin-content div.tooltips-container .record-antet{
+	background:#e2e2e2;
+	margin:1px;
+	padding:5px;
+}
+
+.admin-content div.tooltips-container .record-antet a.delete-action{
+	color:#cc0000;
+}
+
+.admin-content div.tooltips-container .record-antet span.actions{
+	float:right;
+}
+
+.admin-content div.tooltips-container .icon-column,
+.admin-content div.tooltips-container .info-column {
+	float:left;
+}
+
+.admin-content div.tooltips-container .info-column{
+	padding:10px;
+	max-width:480px;
+}
+
+.admin-content div.tooltips-container .info-column div.label{
+	width:160px;
+	float:left;
+	margin-bottom:5px;
+	padding-top: 5px;
+}
+.admin-content div.tooltips-container .info-column div.input{
+	width:320px;
+	float:left;
+	margin-bottom:3px;
+}
+
+.admin-content div.tooltips-container .info-column input[type="text"],
+.admin-content div.tooltips-container .info-column textarea{
+	width:320px;
+}
+
+.admin-content div.tooltips-container .info-column textarea{
+	height:130px;
+}
+
+.admin-content div.tooltips-container div.icon{
+	margin:10px 10px 0 10px;
+	padding:5px;
+	background:#fff;
+	border:1px solid #cdcdcd;
+	float:left;
+}
+
+.admin-content div.tooltips-container div.fvisible.icon:hover{
+	border:1px solid #999;
+	cursor:pointer;
+}
+
+div.tooltips-container div.tooltip{
+	width: 400px;
+	height:80px;
+	padding:10px 10px 10px 0;
+	float:left;
+}
+
+div.tooltips-container div.tooltip p{
+	height:80px;
+	text-indent:15px;
+	padding-top:10px;
+	border: 1px solid #e1e1e1;
+	background: #f3f3f3;
+}
+
+div.tooltip-action{
+	display: block;
+	clear: both;
+	padding:10px 10px 10px 0;
+}
+
+div.tooltip-actionbox{
+	position:absolute;
+	margin: 12px 0px 0px 399px;
+	border:1px solid #dedede;
+	display: none;
+	padding: 0px 10px 11px 10px;
+	background: #ffffff;
+	height: 80px;
+}
+
+div.tooltip-actionbox a{
+	text-decoration: none;
+	color:#666666;
+}
+
+div.tooltip-actionbox a:hover{
+	color:#333333;
+}

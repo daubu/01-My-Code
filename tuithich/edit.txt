@@ -1,0 +1,28 @@
+lib/core/text.php - line 359
+css/generic.css.php - line 4,5
+lib/core/image.php
+lib/core/audio-player - line 116
+lib/classer/document line 13->19 , 57, 58, 280
+
+/functions.php line 89->94
+
+front-page.php -> 46
+post-item.php => 153, 169
+
+js/functions.js -> 45
+templates/social.php => 3-> 27
+
+lib/classes/header.php -> 189->195
+lib/classes/layout.php -> 179 (sitebar)
+
+single -> 62,63
+
+lib/classes/post.php
+templates/single/related.php => 62->96, 53
+templates/single/format.php
+templates/single/header.php
+
+user_profile.php -> 84
+login.php
+
+lib\widget\social_media.php
